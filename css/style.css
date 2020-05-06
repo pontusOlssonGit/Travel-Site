@@ -1,0 +1,174 @@
+
+
+.display-4{
+  font-family: 'Galada', cursive;
+}
+.display-6{
+  font-family: 'Galada', cursive;
+}
+.lead{
+  font-family: 'Arima Madurai', cursive;
+}
+
+.button{
+  font-family: 'Galada', cursive;
+}
+
+.jumbotron {
+  background: url('bgimages/italy-bg.jpg') no-repeat center fixed;
+  background-size: cover;
+  padding-bottom: 10%;
+  margin-bottom: 5%;
+}
+
+.jumbotron-carbg {
+  background: url('bgimages/car-bg.jpg') no-repeat center fixed;
+  background-size: cover;
+  margin-bottom: 5%;
+  padding-bottom: 20%;
+  margin-top: 5%;
+}
+
+.jumbotron-tourist-history {
+  padding-bottom: 3%;
+  background-image: none;
+  background-color: #fff;
+}
+
+.jumbo-last {
+  background: url('bgimages/bg-last.jpg') no-repeat center scroll;
+  color: #fff;
+  background-size: cover;
+}
+
+.navbar {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right, green, #d9d9d9, red);
+  border-image-slice: 1;
+  font-family: 'Arima Madurai';
+  font-size: 1.5rem;
+}
+.navbar-brand{
+  font-size: 2rem;
+}
+
+.map {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 10px;
+}
+
+
+
+
+hr {
+  background-color: black;
+  margin-bottom: 10%;
+}
+
+.card {
+  border-width: 0;
+  border-radius: 0%;
+  transition: all 500ms ease;
+  text-align: center;
+  filter: grayscale(1);
+  font-family: 'Galada', cursive;
+}
+.card-title{
+  font-family: 'Galada', cursive;
+  font-size: 2rem;
+}
+.card-text{
+  font-family: 'Arima Madurai', cursive;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  filter: grayscale(0);
+  transition: all 500ms ease;
+
+}
+
+.card-img-top {
+  margin-left: 95px;
+  height: 10rem;
+  width: 10rem;
+}
+
+.newsletter {
+  text-align: center;
+
+}
+.facebook{
+  height: 2rem;
+  width: 2rem;
+  margin-bottom: 2%;
+}
+.instagram{
+  height: 2rem;
+  width: 2rem;
+  margin-bottom: 2%;
+}
+.twitter{
+  height: 2rem;
+  width: 2rem;
+  margin-bottom: 2%;
+}
+.form-row{
+  margin-top: 2rem;
+}
+.sign-up{
+  margin-right: 3rem;
+  margin-left: 1rem;
+}
+
+.page-footer-fixed-bottom {
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  color: white;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+}
+.newsletter{
+  padding-bottom: 2rem;
+  font-family: 'Galada', cursive;
+}
+.footer-copyright{
+  background-color: #555;
+  font-size: 1rem;
+  font-family: 'Arima Madurai', cursive;
+
+
+}
+
+.history-div{
+  text-align: center;
+    margin-bottom: 3%;
+    font-family: 'Galada', cursive;
+}
+.history-h1{
+  text-align: center;
+  margin-top:5%;
+  margin-bottom: 3%;
+}
+.caesar-img{
+  height: 10rem;
+  width: 10rem;
+  margin-bottom: 3%;
+}
+.small-img{
+  height: 10rem;
+  width: 10rem;
+  margin-top: 3%;
+}
+.tourist-div{
+  text-align: center;
+  font-family: 'Galada', cursive;
+}
+#button1,#button2{
+  margin-bottom: 3%;
+}

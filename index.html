@@ -3,33 +3,44 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="description" content="Travel guide for Italy">
+  <meta name="keywords" content="travel, Italy, vacation">
+  <meta name="author" content="Pontus Olsson">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link href="style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
   <link rel="icon" href="images/flag.png">
 
+  <!--GoogleFonts-->
+  <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Galada&display=swap" rel="stylesheet">
 
-  <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
-
+  <!--Bootstrap-->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 
+  <!--JQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 
   <title>Visit Italy</title>
+
 </head>
 
 <body>
+
   <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html"><img src="images/map.png" class="map" alt=""> Visit Italy</a>
+    <a class="navbar-brand" href="index.html"><img src="images/map.png" class="map" alt="">Visit Italy</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="gallery.html">Gallery</a>
@@ -37,21 +48,30 @@
       </ul>
     </div>
   </nav>
+
+
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1 class="display-4">Welcome to Italy</h1>
-      <p class="lead">Benvenuti in Italia...</p>
+      <h1 class="display-4">Welcome to Italy!</h1>
+      <p class="lead">Benvenuti in Italia...
+      </p>
 
     </div>
   </div>
 
-  <div class="container top-container">
+  <div class="container">
+    <h1 class="display-6">The ultimate guide to Italy...</h1>
+    <p class="lead">
+      Visit Italy is the ultimate guide of Italy. Find out the best things to do in Italy, its regions and its wonderful cities. Visit Italy will help you plan your trip, giving you useful information and advice on how to visit Italy in the best
+      possible
+      way.</p>
+    <hr>
     <div class="row">
       <div class="mx-auto">
         <div class="card" style="width: 22rem;">
-          <img src="images/scooter.png" class="card-img-top" alt="...">
+          <img src="images/journey.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Travel to italy</h5>
+            <h5 class="card-title">Travel to Italy</h5>
             <p class="card-text">With 63.2 million tourists a year (2018), Italy is the fifth most visited country in international tourism arrivals. People mainly visit Italy for its rich culture, cuisine, history, fashion and art, its beautiful
               coastline and beaches, its mountains, and priceless ancient monuments.</p>
             <a href="#" class="btn btn-success">Book a trip</a>
@@ -59,8 +79,8 @@
         </div>
       </div>
       <div class="mx-auto">
-        <div class="card" style="width: 22rem;">
-          <img src="images/food.png" class="card-img-top" alt="...">
+        <div class="card card-food" style="width: 22rem;">
+          <img src="images/dinner.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Italian Food</h5>
             <p class="card-text">Italian cuisine is a Mediterranean cuisine consisting of the ingredients, recipes and cooking techniques developed across the Italian Peninsula since the antiquity, and later spread around the world together with
@@ -69,26 +89,67 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
 
-  <div class="jumbotron jumbotron-fluid jumbo-bottom">
+  <div class="jumbotron jumbotron-fluid jumbotron-carbg">
+
+  </div>
+
+  <div class="jumbotron jumbotron-fluid jumbotron-tourist-history">
     <div class="container">
-      <h1 class="display-4"></h1>
-      <p class="lead"></p>
+      <div class="tourist-div">
+
+        <h1 class="display-4">Tourist Attractions in Italy</h1>
+
+        <input type='button' value='Show' id='button1' class="btn btn-outline-secondary btn-lg">
+        <div class="div-tourist-expand" style="display:none;">
+          <p class="lead">
+            1 Colosseum.<br>
+            2 Venice Canals.<br>
+            3 Pompeii.<br>
+            4 Leaning Tower of Pisa.<br>
+            5 Lake Como.<br>
+            6 Amalfi Coast.<br>
+            7 Florence Duomo Santa Maria del Fiore.<br>
+            8 Cinque Terre.<br>
+            <img src="images/colosseum.png" class="small-img">
+            <img src="images/pisa.png" class="small-img">
+            </p>
+            <hr>
+        </div>
+      </div>
+
+      <h1 class="display-4 history-h1">History of Italy</h1>
+
+      <div class="history-div">
+        <input type='button' value='Show' id='button2' class="btn btn-outline-secondary btn-lg">
+        <div class="div-history-expand" style="display:none;">
+
+          <p class="lead"><img src="images/caesar.png" class="caesar-img" alt="..."><br>
+
+            The history of Italy covers the Ancient Period, the Middle Ages and the modern era. In antiquity, Italy was the homeland of the Romans and the metropole of the Roman Empire. Rome was founded as a Kingdom in 753 BC and
+            became a Republic in 509 BC, when the monarchy was overthrown in favor of a government of the Senate and the People. The Roman Republic then unified Italy at the expense of the Etruscans, Celts, and Greeks of the peninsula. Rome led the
+            federation of the Italic peoples to the domination of Western Europe, Northern Africa, and the Near East.
+            The Roman Empire later dominated Western Europe and the Mediterranean for many centuries, making immeasurable contributions to humanity. Some of these led to the development of Western philosophy, science and art, that remained central
+            during
+            the Middle Ages and the Renaissance. After the fall of Rome in AD 476, Italy remained fragmented in numerous city-states and regional polities until the Italian unification led to the establishment of an Italian nation-state. The new
+            Kingdom
+            of Italy, established in 1861, quickly modernized and built a large colonial empire, colonizing parts of Africa, and countries along the Mediterranean. However, the southern regions of the young nation remained rural and poor, originating
+            the
+            Italian diaspora. <br>
+            <img src="images/soldier.png" class="small-img">
+            <img src="images/soldier.png" class="small-img">
+            <img src="images/soldier.png" class="small-img"></p>
+            <hr>
+        </div>
+      </div>
+      <!--Script for the buttons-->
+      <script type="text/javascript" src="scripts/scripts.js"></script>
     </div>
   </div>
 
-  <div class="jumbotron jumbotron-fluid jumbo-le">
-    <div class="container">
-      <h1 class="display-4">Ciao!</h1>
-      <p class="lead">Visit Italy
-        Visit Italy is the guide of Italy. Find out the best things to do in Italy, its regions and its wonderful cities. Visit Italy will help you plan your trip, giving you useful information and advice on how to visit Italy in the best possible
-        way.</p>
 
-    </div>
-  </div>
 
   <div class="jumbotron jumbotron-fluid jumbo-last">
     <div class="container">
@@ -97,12 +158,26 @@
     </div>
   </div>
 
-  <div class="container">
+  <div class="container newsletter">
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="images/facebook.png" class="facebook" alt="">
+        <p class="h5">Facebook</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="images/instagram.png" class="instagram" alt="">
+        <p class="h5">Instagram</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="images/twitter.png" class="twitter" alt="">
+        <p class="h5">Twitter</p>
+      </div>
+    </div>
 
 
-    <p class="h3">Sign up to our newsletter:</p>
     <form>
       <div class="form-row align-items-center">
+        <p class="h3 sign-up">Sign up to our newsletter:</p>
         <div class="col-sm-3 my-1">
           <label class="sr-only" for="inlineFormInputName">Name</label>
           <input type="text" class="form-control" id="inlineFormInputName" placeholder="Name">
@@ -110,43 +185,18 @@
         <div class="col-sm-3 my-1">
           <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" aria-describedby="emailHelp">
         </div>
-
         <div class="col-auto my-1">
           <button type="submit" class="btn btn-secondary">Submit</button>
         </div>
-
-
       </div>
     </form>
-    <div class="row">
-      <div class="col-sm-4">
-        <p class="h5">Facebook:</p>
-      </div>
-      <div class="col-sm-4">
-        <p class="h5">Instagram:</p>
-      </div>
-      <div class="col-sm-4">
-        <p class="h5">Twitter:</p>
-      </div>
-
-    </div>
-
   </div>
-
-
 
   <footer class="page-footer-fixed-bottom">
     <div class="footer-copyright text-center py-3">
-      <hr>
       © 2020 Copyright: Italian Gov.
-
     </div>
   </footer>
-
-
-
-
-
 </body>
 
 </html>
